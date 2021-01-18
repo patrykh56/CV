@@ -1,0 +1,69 @@
+// color palette
+@import "colors";
+
+//font settings
+@import "_font";
+
+body {
+    min-width: 300px;
+    min-height: 100vh;
+    position: relative;
+    main {
+        min-height: 100vh;
+        background-color: green;
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+        header {
+                position: relative;
+                background-image: url(/images/Code.jpg);
+                background-repeat: no-repeat;
+            .title {
+                display: none;
+                text-transform: uppercase;
+                color: white;
+                position: absolute;
+                left: 4rem;
+                top: 10em;
+            }
+        }
+        
+        .hello-section {
+            background-color: $light-blue;
+            text-align: center;
+            h1 {
+                padding-top: 10px;
+            }
+            .container {
+                .cat {
+                    max-width: 90%;
+                }
+                .welcome-message {
+                    p {
+                        text-align: justify;
+                    }
+                }
+            }
+        }
+        .goals {
+            h1 {
+                padding-bottom: 30px;
+            }
+            text-align: center;
+            padding-bottom: 100px;
+            background-color: $light-grey;
+            a {
+                text-decoration: none;
+                color: inherit;
+                font-weight: bold;
+                .logo {
+                    max-width: 30%;
+                    margin-bottom: 8px;
+                }
+                .logo:hover {
+                        transform: scale(1.1,1.1);
+                }
+            }
+        }
+    }
+}

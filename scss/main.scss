@@ -1,0 +1,66 @@
+// color palette
+@import "colors";
+
+//font settings
+@import "_font";
+
+
+
+body {
+    position: relative;
+    .navbar {
+        padding-left: 15px;
+        padding-right: 15px;
+        background-color: $navy-blue;
+        .navbar-brand > img{
+            width: 35px;
+            height: auto;
+        }
+        .navbar-brand > img:hover {
+            transition: 0.2s;
+            opacity: 0.7;
+        }
+
+        .filter {
+            filter: invert(95%) sepia(3%) saturate(1484%) hue-rotate(173deg) brightness(93%) contrast(93%);
+        }
+        a {
+            color: white;
+        }
+        .collapse {
+            ul > li {
+                text-decoration-color: transparent;
+                transition: 0.2s;
+
+            }
+
+            ul > li:hover {
+                opacity: 0.7;
+            }
+        }
+    }
+
+
+    .footer {
+        position: absolute;
+        color: $navy-blue;
+        bottom: 0px;
+        left: 0px;
+        background-color: white;
+        padding: 10px;
+        p {
+            float: left;
+            margin-bottom: 0rem; //remove bootstrap reboot
+            font-weight: bold;
+        }
+        .media {
+            float: right;
+            margin-right: 15px;
+            background-color: #fff;
+            text-align: center;
+            a {
+                padding: 5px;
+            }
+        }
+    }
+}

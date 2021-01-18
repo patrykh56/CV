@@ -1,0 +1,40 @@
+// color palette
+@import "_colors";
+
+//font settings
+@import "_font";
+
+body {
+    .wrapper {
+        section {
+            border-bottom: 1px white dotted;
+            padding-top: 5px;
+        }
+        section:last-of-type {
+            border: none;
+        }
+        section > ul {
+            list-style-type: none;
+        }
+        .header {
+            background-color: $light-blue;
+            img {
+                display: block;
+                width: 100%;
+                border-radius: 50%;
+            }
+        }
+        .aside {
+            color: white;
+            background-color: $navy-blue;
+        }
+        .article {
+            section {
+                border-color: black;
+            }
+        }
+    } 
+    .footer {
+        bottom: -100px;
+    }
+}

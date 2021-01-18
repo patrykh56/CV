@@ -1,0 +1,15 @@
+// color palette
+@import "colors";
+
+//font settings
+@import "_font";
+
+body {
+        main {
+            min-width: 100vh;
+            background-color: green;   
+            aside ul {
+               list-style-type: none; 
+            }  
+        }
+}

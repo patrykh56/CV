@@ -1,0 +1,74 @@
+* {
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  position: relative;
+}
+
+body .navbar {
+  padding-left: 15px;
+  padding-right: 15px;
+  background-color: #003E5F;
+}
+
+body .navbar .navbar-brand > img {
+  width: 35px;
+  height: auto;
+}
+
+body .navbar .navbar-brand > img:hover {
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  opacity: 0.7;
+}
+
+body .navbar .filter {
+  -webkit-filter: invert(95%) sepia(3%) saturate(1484%) hue-rotate(173deg) brightness(93%) contrast(93%);
+          filter: invert(95%) sepia(3%) saturate(1484%) hue-rotate(173deg) brightness(93%) contrast(93%);
+}
+
+body .navbar a {
+  color: white;
+}
+
+body .navbar .collapse ul > li {
+  -webkit-text-decoration-color: transparent;
+          text-decoration-color: transparent;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+body .navbar .collapse ul > li:hover {
+  opacity: 0.7;
+}
+
+body .footer {
+  position: absolute;
+  color: #003E5F;
+  bottom: 0px;
+  left: 0px;
+  background-color: white;
+  padding: 10px;
+}
+
+body .footer p {
+  float: left;
+  margin-bottom: 0rem;
+  font-weight: bold;
+}
+
+body .footer .media {
+  float: right;
+  margin-right: 15px;
+  background-color: #fff;
+  text-align: center;
+}
+
+body .footer .media a {
+  padding: 5px;
+}
+/*# sourceMappingURL=main.css.map */
