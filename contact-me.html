@@ -11,8 +11,8 @@
         integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     <link rel="icon" href="images/person-circle.svg" type="image/icon type">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="/scss/main.css">
-    <link rel="stylesheet" href="/scss/contact-me.css">
+    <link rel="stylesheet" href="scss/main.css">
+    <link rel="stylesheet" href="scss/contact-me.css">
     <title>Patryk Hennig - another webdev candidate</title>
 </head>
 
@@ -30,10 +30,10 @@
                     <a class="nav-link" href="index.html">Me in a nutshell</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/about-me.html">About me</a>
+                    <a class="nav-link" href="about-me.html">About me</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/contact-me.html">Contact me</a>
+                    <a class="nav-link" href="contact-me.html">Contact me</a>
                 </li>
             </ul>
         </div>
@@ -41,25 +41,27 @@
 
     <div class="wrapper container">
         <div class="row mt-md-5 mb-5">
-            <article class="col-md-8 p-4 article">
+            <article class="col-md-12 p-4">
                 <section class="profile">
                     <h4>Let me know what you think!</h4>
                     <p>If the content that you have seen on that website convinced you or you just want to tell me that
                         the code is bad,
-                        feel free to contact me using the form .</p>
+                        feel free to contact me using the form. <br> I am open for new adventures and challanges.</p>
                 </section>
             </article>
-            <aside class="col-md-4 p-4 aside">
-                <div class="mb-3">
-                    <label for="ControlInput1" class="form-label">Email address</label>
-                    <input type="email" class="form-control" id="FormControlInput1" placeholder="YourName@mail.com">
-                </div>
-                <div class="mb-3">
-                    <label for="ControlTextarea1" class="form-label">Example textarea</label>
-                    <textarea class="form-control" id="ControlTextarea1" rows="5"
-                        placeholder="Put the content of your message here..."></textarea>
-                </div>
-                <button type="submit" class="btn btn-primary mb-3">Send</button>
+            <aside class="col-md-12 p-4 aside">
+                <form action="mailto:pathen19@gmail.com" method="POST">
+                    <div class="mb-3">
+                        <label for="ControlInput1" class="form-label">Email address</label>
+                        <input type="email" class="form-control" id="FormControlInput1" placeholder="YourName@mail.com">
+                    </div>
+                    <div class="mb-3">
+                        <label for="ControlTextarea1" class="form-label">Message</label>
+                        <textarea class="form-control" id="ControlTextarea1" rows="5"
+                            placeholder="Put the content of your message here..."></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary mb-3">Send</button>
+                </form>
             </aside>
         </div>
     </div>

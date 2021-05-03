@@ -5,7 +5,8 @@
           box-sizing: border-box;
 }
 
-body {
+html {
+  min-height: 100vh;
   position: relative;
 }
 
@@ -22,7 +23,7 @@ body .navbar .navbar-brand > img {
 
 body .navbar .navbar-brand > img:hover {
   -webkit-transition: 0.2s;
-  transition: 0.5s;
+  transition: 0.2s;
   opacity: 0.7;
 }
 
@@ -47,15 +48,16 @@ body .navbar .collapse ul > li:hover {
 }
 
 body .footer {
+  bottom: 0;
   position: absolute;
   color: #003E5F;
-  bottom: 0px;
-  left: 0px;
+  height: 45px;
   background-color: white;
   padding: 10px;
 }
 
 body .footer p {
+  padding: 0;
   float: left;
   margin-bottom: 0rem;
   font-weight: bold;

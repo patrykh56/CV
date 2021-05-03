@@ -6,11 +6,8 @@
 
 body {
     min-width: 300px;
-    min-height: 100vh;
-    position: relative;
     main {
-        min-height: 100vh;
-        background-color: green;
+        background-color:$light-blue;
         display: flex;
         flex-direction: column;
         align-items: stretch;
@@ -46,12 +43,12 @@ body {
             }
         }
         .goals {
+            text-align: center;
+            background-color: $light-grey;
+            padding-bottom: 50px;
             h1 {
                 padding-bottom: 30px;
             }
-            text-align: center;
-            padding-bottom: 100px;
-            background-color: $light-grey;
             a {
                 text-decoration: none;
                 color: inherit;

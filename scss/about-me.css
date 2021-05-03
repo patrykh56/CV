@@ -5,6 +5,10 @@
           box-sizing: border-box;
 }
 
+body .wrapper {
+  margin-bottom: 100px;
+}
+
 body .wrapper section {
   border-bottom: 1px white dotted;
   padding-top: 5px;
@@ -35,9 +39,5 @@ body .wrapper .aside {
 
 body .wrapper .article section {
   border-color: black;
-}
-
-body .footer {
-  bottom: -100px;
 }
 /*# sourceMappingURL=about-me.css.map */
