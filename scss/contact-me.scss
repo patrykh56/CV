@@ -1,15 +1,23 @@
 // color palette
-@import "colors";
+@import "_colors";
 
 //font settings
 @import "_font";
 
 body {
-        main {
-            min-width: 100vh;
-            background-color: green;   
-            aside ul {
-               list-style-type: none; 
-            }  
+    .wrapper {
+        .aside {
+            color: white;
+            background-color: $navy-blue;
         }
+        .article {
+            section {
+                border-color: black;
+            }
+        }
+    } 
+    .footer {
+        bottom: 0px;
+        background-color: red;
+    }
 }

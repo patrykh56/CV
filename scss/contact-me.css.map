@@ -1,11 +1,1 @@
-{
-    "version": 3,
-    "mappings": "AEAA,AAAA,CAAC,CAAC;EACE,WAAW,EAAE,qBAAqB;EAClC,SAAS,EAAE,IAAI;EACf,UAAU,EAAE,UAAU;CACzB;;AFED,AACQ,IADJ,CACI,IAAI,CAAC;EACD,SAAS,EAAE,KAAK;EAChB,gBAAgB,EAAE,KAAK;CAI1B;;AAPT,AAIY,IAJR,CACI,IAAI,CAGA,KAAK,CAAC,EAAE,CAAC;EACN,eAAe,EAAE,IAAI;CACvB",
-    "sources": [
-        "contact-me.scss",
-        "_colors.scss",
-        "_font.scss"
-    ],
-    "names": [],
-    "file": "contact-me.css"
-}
+{"version":3,"sourceRoot":"","sources":["_font.scss","contact-me.scss","_colors.scss"],"names":[],"mappings":"AAAA;EACI;EACA;EACA;;;ACKI;EACI;EACA,kBCVA;;ADaA;EACI;;AAIZ;EACI;EACA","file":"contact-me.css"}

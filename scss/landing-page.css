@@ -28,7 +28,7 @@ body main {
 
 body main header {
   position: relative;
-  background-image: url(images/Code.jpg);
+  background-image: url(/images/Code.jpg);
   background-repeat: no-repeat;
 }
 
